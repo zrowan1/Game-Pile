@@ -23,7 +23,7 @@ struct ContentView: View {
                     .clipShape(RoundedRectangle(cornerRadius: 40))
                     .padding(.bottom, 500)
                 
-                Text("Something for you???\n\n")
+                Text("Something for you??\n\n")
                     .padding()
                     .font(.title)
                     .multilineTextAlignment(.center)
