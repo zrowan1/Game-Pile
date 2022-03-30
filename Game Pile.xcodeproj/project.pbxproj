@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		567416A727F4607100524717 /* GlobalInterfaceElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567416A627F4607100524717 /* GlobalInterfaceElements.swift */; };
 		56AEB1A127BA9556000B5467 /* GamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AEB1A027BA9556000B5467 /* GamesView.swift */; };
 		56AEB1A327BA958C000B5467 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AEB1A227BA958C000B5467 /* StatsView.swift */; };
 		56AEB1A527BA95E0000B5467 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AEB1A427BA95E0000B5467 /* SettingsView.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		567416A627F4607100524717 /* GlobalInterfaceElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalInterfaceElements.swift; sourceTree = "<group>"; };
 		56AEB1A027BA9556000B5467 /* GamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesView.swift; sourceTree = "<group>"; };
 		56AEB1A227BA958C000B5467 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
 		56AEB1A427BA95E0000B5467 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				56AEB1A427BA95E0000B5467 /* SettingsView.swift */,
 				56FE3E4A27B3C81300ACCDEE /* Assets.xcassets */,
 				56FE3E4C27B3C81300ACCDEE /* Preview Content */,
+				567416A627F4607100524717 /* GlobalInterfaceElements.swift */,
 			);
 			path = "Game Pile";
 			sourceTree = "<group>";
@@ -103,6 +106,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
@@ -151,6 +157,7 @@
 				56AEB1A127BA9556000B5467 /* GamesView.swift in Sources */,
 				56FE3E4927B3C81100ACCDEE /* ContentView.swift in Sources */,
 				56FE3E4727B3C81100ACCDEE /* Game_PileApp.swift in Sources */,
+				567416A727F4607100524717 /* GlobalInterfaceElements.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

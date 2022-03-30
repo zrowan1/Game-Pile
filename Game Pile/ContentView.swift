@@ -19,7 +19,8 @@ struct ContentView: View {
                     .padding()
                     .font(.title)
                     .multilineTextAlignment(.center)
-                    .background(.orange)
+                    .background(Color("Baby Pink"))
+                    .foregroundColor(Color("Snow"))
                     .clipShape(RoundedRectangle(cornerRadius: 40))
                     .padding(.bottom, 500)
                 
@@ -27,7 +28,8 @@ struct ContentView: View {
                     .padding()
                     .font(.title)
                     .multilineTextAlignment(.center)
-                    .background(.orange)
+                    .background(Color("Baby Pink"))
+                    .foregroundColor(Color("Snow"))
                     .clipShape(RoundedRectangle(cornerRadius: 40))
                     
                 
@@ -40,7 +42,8 @@ struct ContentView: View {
                 .padding()
                 .font(.title)
                 .multilineTextAlignment(.center)
-                .background(.orange)
+                .background(Color("Baby Pink"))
+                .foregroundColor(Color("Snow"))
                 .clipShape(RoundedRectangle(cornerRadius: 40))
                 .padding(.top, 500)
             }
@@ -68,7 +71,7 @@ struct ContentView: View {
         .onAppear() {
             UITabBar.appearance().barTintColor = .white
         }
-        .accentColor(Color.orange)
+        .accentColor(Color("Silver Pink"))
 
 
     }
